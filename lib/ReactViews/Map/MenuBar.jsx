@@ -45,10 +45,6 @@ const MenuBar = createReactClass({
                                       allBaseMaps={this.props.allBaseMaps}
                                       viewState={this.props.viewState}/>
                     </li>
-                    <li className={Styles.menuItem}>
-                        <SharePanel terria={this.props.terria}
-                                    viewState={this.props.viewState}/>
-                    </li>
                     {enableTools && <li className={Styles.menuItem}>
                         <ToolsPanel terria={this.props.terria}
                                     viewState={this.props.viewState}/>
